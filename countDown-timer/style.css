@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./fireworks-2.jpg');
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  margin-top: 5rem;
+}
+
+.countdown-container {
+  /* max-width: 788px; */
+  display: flex;
+  /* align-items: center;
+  justify-content: space-around; */
+}
+.big-text {
+  /* text-align: center; */
+  font-weight: bold;
+  font-size: 5.5rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.2rem;
+}
