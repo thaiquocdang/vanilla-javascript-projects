@@ -1,3 +1,4 @@
+//instead of new year day, we can replace any date such as birthday or anniversay
 const newYears = '1 Jan 2021'
 
 const daysElement = document.getElementById('days')
